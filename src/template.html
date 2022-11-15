@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="container">
+          <div class="nav-wrapper">
+            <div class="logo">
+              <img id="logo" name="logo" alt="logo" class="logo-img" src="assets/logo.png">
+            </div>
+            <nav>
+              <a href="#">Home</a>
+              <a href="#menu">Menu</a>
+              <a href="#services">Services</a>
+              <a href="#blog">Blog</a>
+              <a href="#about">About</a>
+              <a href="#contact">Contact</a>
+            </nav>
+          </div>
+        </div>
+        <div class="slideshow-container">
+          <div class="mySlides fade slide1">
+            <img alt="pizza" src="assets/bg_2.png">
+            <div class="slides-text">
+              <p class="slides-text-yellow">Crunchy</p>
+              <p class="slides-text-uppercase">Italian Pizza</p>
+              <p class="slides-text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ratione.</p>
+              <div class="slides-buttons">
+                <a href="#menu">Order Now</a>
+                <a href="#menu">View Menu</a>
+              </div>
+            </div>
+          </div>
+          <div class="mySlides fade slide2">
+            <div class="slides-text">
+              <p class="slides-text-yellow">Welcome</p>
+              <p class="slides-text-uppercase">We cooked your desired pizza recipe</p>
+              <p class="slides-text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ratione.</p>
+              <div class="slides-buttons">
+                <a href="#menu">Order Now</a>
+                <a href="#menu">View Menu</a>
+              </div>
+            </div>
+          </div>
+          <div class="mySlides fade slide3">
+            <div class="slides-text">
+              <p class="slides-text-yellow">Delicious</p>
+              <p class="slides-text-uppercase">Italian Cuizine</p>
+              <p class="slides-text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, ratione.</p>
+              <div class="slides-buttons">
+                <a href="#menu">Order Now</a>
+                <a href="#menu">View Menu</a>
+              </div>
+            </div>
+            <img alt="pizza" src="assets/bg_1.png">
+          </div>
+          <!-- Next and previous buttons -->
+          <a class="prev">&#10094;</a>
+          <a class="next"">&#10095;</a>
+          <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section id="about">
+          <div class="about-info">
+            <div class="about-info-contacts">
+              <div class="about-info-contacts-section">
+                <div class="icon"><img src="assets/telephone-handle-silhouette.png"></div>
+                <div class="text">
+                  <p class="text-bold">000 (123) 456 7890</p>
+                  <p class="text-description">Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+              <div class="about-info-contacts-section">
+                <div class="icon"><img src="assets/target.png"></div>
+                <div class="text">
+                  <p class="text-bold">198 West 21th Street</p>
+                  <p class="text-description">Suite 721 New York NY 10016</p>
+                </div>
+              </div>
+              <div class="about-info-contacts-section">
+                <div class="icon"><img src="assets/clock.png"></div>
+                <div class="text">
+                  <p class="text-bold">Open Monday-Friday</p>
+                  <p class="text-description">8:00am - 9:00pm</p>
+                </div>
+              </div>
+            </div>
+            <div class="about-info-social-media">
+              <a href="https://twitter.com/" target="_blank"><img src="assets/twitter.png"></a>
+              <a href="https://www.facebook.com/" target="_blank"><img src="assets/facebook-app-symbol.png"></a>
+              <a href="https://www.instagram.com/pizza/" target="_blank"><img src="assets/instagram.png"></a>
+            </div>
+          </div>
+          <div class="about-description">
+            <div class="about-description-img"><img src="assets/about.jpg"></div>
+            <div class="about-description-text">
+              <p class="text-uppercase">
+                Welcome to <img src="assets/pizza.png"><span class="text-yellow">Pizza</span> a restaurant
+              </p>
+              <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ratione velit ipsam officiis eveniet ex optio deserunt vitae? Corrupti ad vero laudantium, recusandae est cum harum sint, nesciunt velit consequuntur optio aliquid fugiat et voluptas laboriosam itaque! Quibusdam numquam magnam veniam eveniet rem pariatur hic consequatur aliquid distinctio fuga voluptate deserunt, nobis aut quidem, molestias atque, tempora commodi illum? Facere nobis iure qui, totam expedita cupiditate nam dignissimos nisi atque recusandae quam quae optio aliquam harum dicta numquam officiis commodi doloribus alias ut voluptatum non. Voluptatem quis nam labore quam saepe officiis dolorum explicabo voluptatibus odit magnam, quas veritatis perferendis.</p>
+            </div>
+          </div>
+        </section>
+        <section id="services">
+          <p class="text-uppercase">Our services</p>
+          <p class="text-description services-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolores natus minima. Quod maiores cumque placeat omnis dolore blanditiis a facere sed magnam debitis ad tempora cum quis.</p>
+          <div class="services-section">
+            <div class="service-block">
+              <img src="assets/diet.png">
+              <p class="service-name">Healty foods</p>
+              <p class="text-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur adipisci inventore minus quos perspiciatis quisquam.</p>
+            </div>
+            <div class="service-block">
+              <img src="assets/delivery.png">
+              <p class="service-name">Fastest delivery</p>
+              <p class="text-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur adipisci inventore minus quos perspiciatis quisquam.</p>
+            </div>
+            <div class="service-block">
+              <img src="assets/pizzaslice.png">
+              <p class="service-name">Original recipes</p>
+              <p class="text-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur adipisci inventore minus quos perspiciatis quisquam.</p>
+            </div>
+          </div>
+        </section>
+        <section id="menu">
+          <div class="menu-first-part">
+            <div class="menu-first-part-text">
+              <p class="text-uppercase">Hot pizza meals</p>
+              <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit maxime odit velit perferendis neque vitae enim error, accusantium autem eligendi!</p>
+            </div>
+            <div class="menu-first-part-grid">
+              <div class="menu-first-part-item">
+                <img src="assets/pizza-1.jpg" alt="image">
+                <div class="menu-first-part-item-info">
+                  <div class="menu-first-part-item-text">
+                    <p class="text-bold">Italian pizza</p>
+                    <p class="text-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam sint molestias et quasi a. Quam.</p>
+                  </div>
+                  <div class="menu-first-part-item-price">
+                    <span class="text-yellow">$2.90</span>
+                    <button class="btn-white-transparent">Order</button>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-first-part-item">
+                <img src="assets/pizza-2.jpg" alt="image">
+                <div class="menu-first-part-item-info">
+                  <div class="menu-first-part-item-text">
+                    <p class="text-bold">Italian pizza</p>
+                    <p class="text-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam sint molestias et quasi a. Quam.</p>
+                  </div>
+                  <div class="menu-first-part-item-price">
+                    <span class="text-yellow">$2.90</span>
+                    <button class="btn-white-transparent">Order</button>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-first-part-item">
+                <img src="assets/pizza-3.jpg" alt="image">
+                <div class="menu-first-part-item-info">
+                  <div class="menu-first-part-item-text">
+                    <p class="text-bold">Italian pizza</p>
+                    <p class="text-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam sint molestias et quasi a. Quam.</p>
+                  </div>
+                  <div class="menu-first-part-item-price">
+                    <span class="text-yellow">$2.90</span>
+                    <button class="btn-white-transparent">Order</button>
+                  </div>
+                </div>
+              </div>
+              <div class="menu-first-part-item">
+                <div class="menu-first-part-item-info">
+                  <div class="menu-first-part-item-text">
+                    <p class="text-bold">Italian pizza</p>
+                    <p class="text-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam sint molestias et quasi a. Quam.</p>
+                  </div>
+                  <div class="menu-first-part-item-price">
+                    <span class="text-yellow">$2.90</span>
+                    <button class="btn-white-transparent">Order</button>
+                  </div>
+                </div>
+                <img src="assets/pizza-4.jpg" alt="image">
+              </div>
+              <div class="menu-first-part-item">
+                <div class="menu-first-part-item-info">
+                  <div class="menu-first-part-item-text">
+                    <p class="text-bold">Italian pizza</p>
+                    <p class="text-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam sint molestias et quasi a. Quam.</p>
+                  </div>
+                  <div class="menu-first-part-item-price">
+                    <span class="text-yellow">$2.90</span>
+                    <button class="btn-white-transparent">Order</button>
+                  </div>
+                </div>
+                <img src="assets/pizza-5.jpg" alt="image">
+              </div>
+              <div class="menu-first-part-item">
+                <div class="menu-first-part-item-info">
+                  <div class="menu-first-part-item-text">
+                    <p class="text-bold">Italian pizza</p>
+                    <p class="text-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam sint molestias et quasi a. Quam.</p>
+                  </div>
+                  <div class="menu-first-part-item-price">
+                    <span class="text-yellow">$2.90</span>
+                    <button class="btn-white-transparent">Order</button>
+                  </div>
+                </div>
+                <img src="assets/pizza-6.jpg" alt="image">
+              </div>
+            </div>
+          </div>
+          <div class="menu-second-part">
+            <div class="menu-second-part-text">
+              <p class="text-uppercase">Our menu pricing</p>
+              <div class="devider">
+                <div class="diamond-small"></div>
+                <div class="diamond"></div>
+                <div class="diamond-small"></div>
+              </div>
+              <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit maxime odit velit perferendis neque vitae enim error, accusantium autem eligendi.</p>
+            </div>
+            <div class="menu-second-part-pricing">
+              <div class="menu-second-part-pricing-element">
+                <img src="assets/pizza-1.jpg" alt="image">
+                <div class="menu-pricing-pizza-info">
+                  <div class="menu-pricing-pizza-info-first-row">
+                    <p class="text-yellow-dot-border">Italian Pizza</p>
+                    <span class="text-yellow">$20.00</span>
+                  </div>
+                  <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+              <div class="menu-second-part-pricing-element">
+                <img src="assets/pizza-5.jpg" alt="image">
+                <div class="menu-pricing-pizza-info">
+                  <div class="menu-pricing-pizza-info-first-row">
+                    <p class="text-yellow-dot-border">Hawaiian Pizza</p>
+                    <span class="text-yellow">$20.00</span>
+                  </div>
+                  <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+              <div class="menu-second-part-pricing-element">
+                <img src="assets/pizza-2.jpg" alt="image">
+                <div class="menu-pricing-pizza-info">
+                  <div class="menu-pricing-pizza-info-first-row">
+                    <p class="text-yellow-dot-border">Hawaiian Pizza</p>
+                    <span class="text-yellow">$20.00</span>
+                  </div>
+                  <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+              <div class="menu-second-part-pricing-element">
+                <img src="assets/pizza-6.jpg" alt="image">
+                <div class="menu-pricing-pizza-info">
+                  <div class="menu-pricing-pizza-info-first-row">
+                    <p class="text-yellow-dot-border">Ultimate Overload</p>
+                    <span class="text-yellow">$20.00</span>
+                  </div>
+                  <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+              <div class="menu-second-part-pricing-element">
+                <img src="assets/pizza-3.jpg" alt="image">
+                <div class="menu-pricing-pizza-info">
+                  <div class="menu-pricing-pizza-info-first-row">
+                    <p class="text-yellow-dot-border">Greek Pizza</p>
+                    <span class="text-yellow">$20.00</span>
+                  </div>
+                  <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+              <div class="menu-second-part-pricing-element">
+                <img src="assets/pizza-7.jpg" alt="image">
+                <div class="menu-pricing-pizza-info">
+                  <div class="menu-pricing-pizza-info-first-row">
+                    <p class="text-yellow-dot-border">Bacon Pizza</p>
+                    <span class="text-yellow">$20.00</span>
+                  </div>
+                  <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+              <div class="menu-second-part-pricing-element">
+                <img src="assets/pizza-4.jpg" alt="image">
+                <div class="menu-pricing-pizza-info">
+                  <div class="menu-pricing-pizza-info-first-row">
+                    <p class="text-yellow-dot-border">Bacon Crispy Thins</p>
+                    <span class="text-yellow">$20.00</span>
+                  </div>
+                  <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+              <div class="menu-second-part-pricing-element">
+                <img src="assets/pizza-8.jpg" alt="image">
+                <div class="menu-pricing-pizza-info">
+                  <div class="menu-pricing-pizza-info-first-row">
+                    <p class="text-yellow-dot-border">Ham & Pineapple</p>
+                    <span class="text-yellow">$20.00</span>
+                  </div>
+                  <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-third-part">
+            <div class="menu-third-part-image">
+              <img src="assets/about.jpg" alt="image">
+            </div>
+            <div class="menu-third-part-section">
+              <div class="buttons">
+                <button>Pizza</button>
+                <button>Drinks</button>
+                <button>Burgers</button>
+                <button>Pasta</button>
+              </div>
+              <div class="menu-third-part-pizzas">
+                <div class="menu-third-part-pizzas-item">
+                  <img src="assets/pizza-1.jpg" alt="pizza">
+                  <p class="text-bold">Italian Pizza</p>
+                  <p class="text-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur sequi debitis iusto eius praesentium.</p>
+                  <p class="text-yellow">$2.90</p>
+                  <button  class="btn-white-transparent">Add to cart</button>
+                </div>
+                <div class="menu-third-part-pizzas-item">
+                  <img src="assets/pizza-2.jpg" alt="pizza">
+                  <p class="text-bold">Greek Pizza</p>
+                  <p class="text-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur sequi debitis iusto eius praesentium.</p>
+                  <p class="text-yellow">$2.90</p>
+                  <button  class="btn-white-transparent">Add to cart</button>
+                </div>
+                <div class="menu-third-part-pizzas-item">
+                  <img src="assets/pizza-3.jpg" alt="pizza">
+                  <p class="text-bold">Caucasian Pizza</p>
+                  <p class="text-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur sequi debitis iusto eius praesentium.</p>
+                  <p class="text-yellow">$2.90</p>
+                  <button  class="btn-white-transparent">Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="blog">
+          <div class="blog-info">
+            <p class="text-uppercase">Recent fron blog</p>
+            <p class="text-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo obcaecati sapiente sit enim recusandae. Ullam dolores doloribus culpa consectetur veritatis assumenda asperiores debitis dolore minima.</p>
+          </div>
+          <div class="blog-section">
+            <div class="blog-article">
+              <img src="assets/image_1.jpg" alt="image">
+              <p class="text-description">Sept 10, 2021 Admin <img src="assets/free_icon_1.svg" alt="image"> 3</p>
+              <p class="text-bold">The Delicious Pizza</p>
+              <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum rem atque in repudiandae tempore necessitatibus voluptatum accusamus.</p>
+            </div>
+            <div class="blog-article">
+              <img src="assets/image_2.jpg" alt="image">
+              <p class="text-description">Sept 10, 2021 Admin <img src="assets/free_icon_1.svg" alt="image"> 3</p>
+              <p class="text-bold">The Delicious Pizza</p>
+              <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum rem atque in repudiandae tempore necessitatibus voluptatum accusamus.</p>
+            </div>
+            <div class="blog-article">
+              <img src="assets/image_3.jpg" alt="image">
+              <p class="text-description">Sept 10, 2021 Admin <img src="assets/free_icon_1.svg" alt="image"> 3</p>
+              <p class="text-bold">The Delicious Pizza</p>
+              <p class="text-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum rem atque in repudiandae tempore necessitatibus voluptatum accusamus.</p>
+            </div>
+          </div>
+        </section>
+        <section id="stats">
+          <div class="stats-images">
+            <img src="assets/gallery-1.jpg" alt="image">
+            <img src="assets/gallery-2.jpg" alt="image">
+            <img src="assets/gallery-3.jpg" alt="image">
+            <img src="assets/gallery-4.jpg" alt="image">
+          </div>
+          <div class="stats-info">
+            <div class="stats-info-block">
+              <img src="assets/pizzaslice-yellow.png" alt="image">
+              <p class="stats-text-uppercase">100</p>
+              <p>Pizza Branches</p>
+            </div>
+            <div class="stats-info-block">
+              <img src="assets/medal.png" alt="image">
+              <p class="stats-text-uppercase">85</p>
+              <p>Numbers of Awards</p>
+            </div>
+            <div class="stats-info-block">
+              <img src="assets/laugh.png" alt="image">
+              <p class="stats-text-uppercase">10,567</p>
+              <p>Happy Customer</p>
+            </div>
+            <div class="stats-info-block">
+              <img src="assets/chef.png" alt="image">
+              <p class="stats-text-uppercase">900</p>
+              <p>Staff</p>
+            </div>
+          </div>
+        </section>
+        <section id="contact">
+          <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48360.248396014635!2d-73.9913550692393!3d40.750684818432106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258572c396a85%3A0x87477247974076e9!2sThe%20Best%20Pizza!5e0!3m2!1sen!2sus!4v1658948657205!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="contact-section">
+            <p class="contact-us">Contact Us</p>
+            <form>
+              <label for="firstname">First Name</label>
+              <input id="firstname" name="firstname" type="text" required>
+              <label for="lastname">Last Name</label>
+              <input id="lastname" name="lastname" type="text" required>
+              <label for="message">Message</label>
+              <textarea name="message" id="message" required></textarea>
+              <input id="submit" type="submit" value="Send">
+              <p class="hidden text-yellow">Thank you for your message</p>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footer-section">
+          <div class="footer-section-block footer-about">
+            <p class="footer-text-uppercase">About us</p>
+            <p class="footer-text-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia fugiat minus unde. Quaerat nulla qui at eum nostrum quidem mollitia.</p>
+            <div class="footer-social-media">
+              <a href="https://twitter.com/" target="_blank"><img src="assets/twitter.png"></a>
+              <a href="https://www.facebook.com/" target="_blank"><img src="assets/facebook-app-symbol.png"></a>
+              <a href="https://www.instagram.com/pizza/" target="_blank"><img src="assets/instagram.png"></a>
+            </div>
+          </div>
+          <div class="footer-section-block footer-recent-blog">
+            <p class="footer-text-uppercase">Recent blog</p>
+            <div class="footer-blog">
+              <img src="assets/image_1.jpg" alt="image">
+              <div class="footer-blog-info">
+                <p class="footer-blog-text">Lorem, ipsum dolor sitghj amet consectetur adipisicing elit.</p>
+                <p class="footer-blog-data">
+                  <img src="assets/schedule.png" alt="image"> Sept 15, 2021 
+                  <img src="assets/profile.png" alt="image"> Admin 
+                  <img src="assets/free_icon_1.svg" alt="image"> 19
+                </p>
+              </div>
+            </div>
+            <div class="footer-blog">
+              <img src="assets/image_2.jpg" alt="image">
+              <div class="footer-blog-info">
+                <p class="footer-blog-text">Lorem, ipsum dolor sitghj amet consectetur adipisicing elit.</p>
+                <p class="footer-blog-data">
+                  <img src="assets/schedule.png" alt="image"> Sept 15, 2021 
+                  <img src="assets/profile.png" alt="image"> Admin 
+                  <img src="assets/free_icon_1.svg" alt="image"> 19
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-section-block footer-services">
+            <p class="footer-text-uppercase">Services</p>
+            <p class="footer-text-description">Cooked</p>
+            <p class="footer-text-description">Deliver</p>
+            <p class="footer-text-description">Quality Foods</p>
+            <p class="footer-text-description">Mixed</p>
+          </div>
+          <div class="footer-section-block footer-contact">
+            <p class="footer-text-uppercase">Have a question?</p>
+            <!-- <ul class="footer-text-description">
+              <li class="li-address">203 Fake St. Mountain View, San Francisco, California, USA</li>
+              <li class="li-phone">+2 392 3929 210</li>
+              <li class="li-mail">info@yourdomain.com</li>
+            </ul> -->
+            <table  class="footer-text-description">
+              <tr>
+                <td><img src="assets/pin.png" width="15px" alt="image"></td>
+                <td>203 Fake St. Mountain View, San Francisco, California, USA</td>
+              </tr>
+              <tr>
+                <td><img src="assets/phone-receiver-silhouette.png" width="15px" alt="image"></td>
+                <td>+2 392 3929 210</td>
+              </tr>
+              <tr>
+                <td><img src="assets/envelope.png" width="15px" alt="image"></td>
+                <td>info@yourdomain.com</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <p class="footer-text-description copyright">Copyright &copy;2022 All rights reserved</p>
+      </footer>
+    </div>
+  </body>
+</html>
