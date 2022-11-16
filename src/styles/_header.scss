@@ -121,21 +121,21 @@ nav {
                 background-color: $signature-color;
                 border: 1px solid $signature-color;
                 color: $background-color;
+
+                &:hover {
+                    background-color: white;
+                    border: 1px solid white;
+                }
             }
 
             &:last-child {
                 color: white;
                 border: 1px solid white;
-            }
 
-            &:first-child:hover {
-                background-color: white;
-                border: 1px solid white;
-            }
-
-            &:last-child:hover {
-                color: $signature-color;
-                border: 1px solid $signature-color;
+                &:hover {
+                    color: $signature-color;
+                    border: 1px solid $signature-color;
+                }
             }
         }
     }
